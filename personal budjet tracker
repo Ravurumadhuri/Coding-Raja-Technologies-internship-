@@ -22,7 +22,7 @@ def record_income(transactions):
     category = input("Enter income category: ")
     date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     transactions["income"].append({"amount": amount, "category": category, "date": date})
-    print("Income recorded successfully!")
+    print("Income recorded successfuly!")
 
 # Function to record expense
 def record_expense(transactions):
